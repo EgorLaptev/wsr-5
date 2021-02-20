@@ -24,6 +24,6 @@ if(isset($_POST['sing_in'])) {
 
 }
 
-header('Location: ' . '../pass.php');
+header('Location: ' . '../');
 
 ?>

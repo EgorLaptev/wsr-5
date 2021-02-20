@@ -12,7 +12,7 @@
 <body>
   <div>
     <h1 class="title">Загрузите ваше фото</h1>
-    <form enctype="multipart/form-data" class="upload-photo" action="./php/uploadData.php" method="POST">
+    <form enctype="multipart/form-data" class="upload-photo" action="preview.php" method="POST">
       <input type="file" name="upload" class="upload" id="upload">
       <input type="submit" name="confirm" id="confirm" value="Подтвердить" disabled>
       <?php foreach ($_POST as $key => $value) : ?>
