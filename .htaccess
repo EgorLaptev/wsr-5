@@ -1,0 +1,4 @@
+RewriteEngine off
+RewriteBase /
+
+RewriteRule pass php/pass.php
