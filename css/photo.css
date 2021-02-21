@@ -41,8 +41,6 @@ h1 {
 
 canvas {
   display: none;
-  border: 3px solid #111;
-  border-radius: 5px;
   max-width: 450px;
   max-height: 450px;
   margin-bottom: 25px;

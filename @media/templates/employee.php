@@ -241,13 +241,13 @@
         <rect class="cls-1" y="1" width="339.87" height="323.13" rx="20.05" ry="20.05" />
         <path class="cls-2"
             d="M.58,262.18H339.87a0,0,0,0,1,0,0V457.12A17.88,17.88,0,0,1,322,475H17.88A17.88,17.88,0,0,1,0,457.12V262.76a.58.58,0,0,1,.58-.58Z" />
-        <image width="800" height="1011" transform="translate(76) scale(0.25)" xlink:href="$path" />
+        <image width="800" height="1011" transform="translate(76) scale(0.25)" xlink:href="data:image/png;base64,<?=base64_encode($file)?>" />
         <rect class="cls-3" y="474" width="339.87" height="99" rx="15.39" ry="15.39" /><text class="cls-4"
             transform="translate(30.44 280.83)">Постоянный пропуск
         </text>
-        
-        <text class="cls-14" transform="translate(30.44 308.45)">$fio</text>
-        
+
+        <text class="cls-14" transform="translate(30.44 308.45)"><?=$fullname?></text>
+
         <path class="cls-2"
             d="M340,285.47,192.61,270.39l-10-5L0,262V193.35c58.62,0,145.71,46.9,237.83,48.57S340,285.47,340,285.47Z"
             transform="translate(0 1)" />

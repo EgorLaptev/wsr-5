@@ -10,12 +10,12 @@
         <defs>
             <style>
                 .cls-1 {
-                    fill: #7c7c7c;
+                    fill: #55413a;
                 }
 
                 .cls-18,
                 .cls-2 {
-                    fill: #ededed;
+                    fill: #2b2a29;
                 }
 
                 .cls-3 {
@@ -70,7 +70,7 @@
 
                 .cls-10,
                 .cls-15 {
-                    font-size: 25.65px;
+                    font-size: 18px;
                     fill: #fff;
                 }
 
@@ -107,7 +107,7 @@
 
                 .cls-19 {
                     font-size: 9.62px;
-                    fill: #101010;
+                    fill: #dddcdb;
                 }
 
                 .cls-20 {
@@ -241,13 +241,24 @@
         <rect class="cls-1" y="1" width="339.87" height="323.13" rx="20.05" ry="20.05" />
         <path class="cls-2"
             d="M.58,262.18H339.87a0,0,0,0,1,0,0V457.12A17.88,17.88,0,0,1,322,475H17.88A17.88,17.88,0,0,1,0,457.12V262.76a.58.58,0,0,1,.58-.58Z" />
-        <image width="800" height="1011" transform="translate(76) scale(0.25)" xlink:href="$path" />
+        <image width="800" height="1011" transform="translate(76) scale(0.25)" xlink:href="data:image/png;base64,<?=base64_encode($file)?>" />
         <rect class="cls-3" y="474" width="339.87" height="99" rx="15.39" ry="15.39" /><text class="cls-4"
-            transform="translate(30.44 280.83)">Постоянный пропуск
+            transform="translate(30.44 280.83)">Временный проп<tspan class="cls-5" x="127.02" y="0">у</tspan>
+            <tspan class="cls-6" x="135.03" y="0">ск</tspan>
+        </text><text class="cls-7" transform="translate(28.39 365.9) rotate(-0.14)">с</text>
+        <path class="cls-8" d="M179.13,351.49l0,13.37h-3.87l0-10.19h-5.57l0,10.19h-3.85l0-13.37Z"
+            transform="translate(0 1)" />
+        <path class="cls-8"
+            d="M185.85,364.16a6.55,6.55,0,0,1-2.63-2.44,7.16,7.16,0,0,1,0-7.1,6.55,6.55,0,0,1,2.62-2.45,8.55,8.55,0,0,1,7.56,0,6.58,6.58,0,0,1,2.61,2.44,7.16,7.16,0,0,1,0,7.1,6.57,6.57,0,0,1-2.6,2.45,8.55,8.55,0,0,1-7.56,0Zm6.23-3.32a4.28,4.28,0,0,0,0-5.39,3.23,3.23,0,0,0-2.45-1,3.27,3.27,0,0,0-2.46,1,4.23,4.23,0,0,0,0,5.39,3.27,3.27,0,0,0,2.46,1A3.22,3.22,0,0,0,192.08,360.84Z"
+            transform="translate(0 1)" /><text class="cls-9"
+            transform="translate(164.01 365.9) rotate(-0.14)">по</text><text class="cls-10"
+            transform="translate(52.27 366.24) rotate(-0.14)">
+            <tspan class="cls-11"><?=$start?></tspan>
         </text>
-
-        <text class="cls-14" transform="translate(30.44 308.45)"><?= $fullname ?></text>
-
+        <text class="cls-14" transform="translate(30.44 308.45)"><?=$fullname?></text>
+        <text class="cls-15"
+            transform="translate(206.3 366.24) rotate(-0.14)"><?=$end?>
+        </text>
         <path class="cls-2"
             d="M340,285.47,192.61,270.39l-10-5L0,262V193.35c58.62,0,145.71,46.9,237.83,48.57S340,285.47,340,285.47Z"
             transform="translate(0 1)" />

@@ -11,7 +11,7 @@
 
 <body>
 
-  <?php
+<?php
 
   require_once 'php/connect.php';
 
@@ -22,10 +22,12 @@
     $end   = $_POST['pass-end'];
   }
 
+  $file = file_get_contents($_FILES['upload']['tmp_name']);
 
-  require ($_POST['pass-type'] == 'temp') ? 'guest.php' : 'employee.php';
+  require ($_POST['pass-type'] == 'temp') ? '@media/templates/guest.php' : '@media/templates/employee.php';
 
-  ?>
+?>
+
 
 </body>
 
